@@ -1,0 +1,22 @@
+{
+  "name": "king",
+  "version": "1.0.0",
+  "description": "王者荣耀爬虫",
+  "main": "app/index.js",
+  "bin": {
+    "king": "app/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jalon",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.1",
+    "ora": "^1.1.0",
+    "request": "^2.79.0"
+  }
+}
